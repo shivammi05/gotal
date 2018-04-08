@@ -25,7 +25,7 @@ public class SearchSteps {
     @Before({"@requires_browser"})
     public void buildDriver() {
         //driver = new HtmlUnitDriver();
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\shivammi\\Downloads\\chromedriver_win32\\chromedriver.exe"};
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\shivammi\\Downloads\\chromedriver_win32\\chromedriver.exe");
        
         driver = new ChromeDriver();
     }
